@@ -1,0 +1,90 @@
+# Changelog
+All notable changes to the Bliss doughnut website will be documented here.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/).
+This project adheres to Semantic Versioning.
+
+## [v1.0.0] - 2026-09-18
+
+### Added
+- Initial Bliss website structure - Home, About Us, Menu, Order, Contact pages
+- Responsiveness Testing section in README.md with DevTools screenshots
+- Device testing evidence: Mobile (iPhone SE - 375px), Tablet (iPad Pro 13 - 1024px), Desktop (Surface Pro 10 - 1920px)
+- Responsive images implementation using srcset and sizes attributes
+
+### Fixed
+- Fixed navigation menu stacking vertically on desktop view
+- Fixed duplicate body selectors in style.css causing style conflicts
+- Fixed image responsiveness on small screens
+
+### Changed
+- Updated README.md to include requirement 3.4 - Responsiveness testing and iteration
+
+## [v0.1.0] - 2026-09-10
+### Added
+- Project proposal and initial HTML files
+- Basic CSS styling and brand colors
+- GitHub repository setup
+# Changelog — Bliss Doughnuts Website
+
+## Version 1.0 — Part 3 Improvements
+
+## [v0.1.0] - 2026-10-03
+###  Website Structure and Navigation
+
+- Improved the HTML structure across the website pages.
+- Made the navigation consistent across the pages.
+- Corrected structural issues to improve the organisation and readability of the HTML code.
+
+  ## [v0.1.0] - 2026-10-10
+###  CSS and Website Design
+
+- Used a separate CSS stylesheet to manage the website's appearance.
+- Improved the consistency of styling across the website pages.
+- Added responsive styling to improve the layout on different screen sizes.
+- Improved the presentation of website content and navigation.
+
+  ## [v0.1.0] - 2026-10-19
+###  JavaScript Functionality
+
+- Added a separate `script.js` file to keep JavaScript separate from the HTML.
+- Added interactive functionality to improve the user experience.
+- Implemented menu search and sorting functionality.
+- Added image enlargement functionality.
+- Added a mobile navigation toggle. 
+
+  ## [v0.1.0] - 2026-10-11/12
+###  Forms and Ordering
+
+* Improved the enquiry, contact, and order forms.
+* Added client-side validation to help users identify missing or invalid information.
+* Added functionality to prepare an email draft containing form information.
+* Added support for preselecting a product on the order page when arriving from a menu link.
+* Added date restrictions to prevent selecting past delivery dates.
+
+###  Search Engine Optimisation (SEO)
+
+* Added canonical URL placeholders.
+* Created a `robots.txt` file.
+* Created a `sitemap.xml` file to help search engines discover website pages.
+
+###  Documentation and Project Organisation
+
+* Updated the README documentation with project information and setup instructions.
+* Documented the website's features and limitations.
+* Listed the image assets required by the website.
+
+  ## [v0.1.0] - 2026-10-23
+## Known Limitations
+
+* Website images must be added to the images folder.
+* Canonical URLs and sitemap details must be updated with the final published website address.
+* Forms currently use client-side validation and prepare email drafts. They do not automatically store or send submissions to a database.
+* The website must be tested after deployment to confirm that all pages, images, links, forms, CSS, and JavaScript work correctly.
+
+## Future Improvements
+
+* Connect forms to a form-processing service or backend.
+* Improve accessibility and conduct further usability testing.
+* Add additional product images and descriptions.
+* Continue testing and improving the website based on feedback.
