@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product and Service Enquiries | Bliss Doughnuts</title>
+  <meta name="description" content="Ask Bliss Doughnuts about product availability, custom designs, prices, sponsorships or volunteering opportunities.">
+  <meta name="keywords" content="doughnut enquiry Springs, custom doughnut quote, Bliss Doughnuts availability">
+  <meta name="robots" content="index, follow"><link rel="canonical" href="https://example.com/enquiry.html">
+  <link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><a class="brand" href="index.html">Bliss Doughnuts <span>Taste the love</span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">☰ <span class="sr-only">Toggle navigation</span></button><nav id="site-nav" class="site-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="menu.html">Menu</a><a href="order.html">Order</a><a href="enquiry.html" aria-current="page">Enquiries</a><a href="contact.html">Contact</a></nav></header>
+  <main id="main" class="content-wrap narrow">
+    <p class="eyebrow">Let's plan something sweet</p><h1>Product and service enquiry</h1><p class="lead">Use this form to ask about a product, a custom design, availability or a quote. Required fields are marked.</p>
+    <form id="enquiry-form" class="form-card" novalidate>
+      <label for="enquiry-name">Full name *</label><input id="enquiry-name" name="name" type="text" autocomplete="name" minlength="2" required>
+      <label for="enquiry-email">Email address *</label><input id="enquiry-email" name="email" type="email" autocomplete="email" required>
+      <label for="enquiry-phone">Contact number</label><input id="enquiry-phone" name="phone" type="tel" autocomplete="tel" pattern="[0-9+() -]{7,20}" title="Enter a valid phone number using 7 to 20 digits or common phone symbols.">
+      <label for="enquiry-type">What is your enquiry about? *</label><select id="enquiry-type" name="type" required><option value="">Choose an option</option><option>Product availability</option><option>Custom doughnut design</option><option>Price quote</option><option>Sponsorship</option><option>Volunteering</option><option>Other</option></select>
+      <label for="enquiry-date">Preferred date (if applicable)</label><input id="enquiry-date" name="date" type="date">
+      <label for="enquiry-details">Tell us what you need *</label><textarea id="enquiry-details" name="details" rows="5" minlength="10" required placeholder="Include the quantity, occasion, design or other relevant details."></textarea>
+      <button class="button" type="submit">Prepare enquiry email</button><p class="form-message" id="enquiry-message" role="status" aria-live="polite"></p>
+      <p class="small">This demo prepares an email in your email application; it does not send or store the form on a server.</p>
+    </form>
+  </main>
+  <footer class="site-footer"><p>Bliss Doughnuts · Springs, Johannesburg, South Africa</p><p><a href="contact.html">General contact</a></p></footer>
+</body>
+</html>

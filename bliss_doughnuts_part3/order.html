@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Order Doughnuts | Bliss Doughnuts Springs</title>
+  <meta name="description" content="Send an order request for Bliss Doughnuts. Provide your selected treats, delivery details and preferred date for confirmation.">
+  <meta name="keywords" content="order doughnuts online, Bliss Doughnuts delivery, Springs doughnut order">
+  <meta name="robots" content="index, follow"><link rel="canonical" href="https://example.com/order.html">
+  <link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><a class="brand" href="index.html">Bliss Doughnuts <span>Taste the love</span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">☰ <span class="sr-only">Toggle navigation</span></button><nav id="site-nav" class="site-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="menu.html">Menu</a><a href="order.html" aria-current="page">Order</a><a href="enquiry.html">Enquiries</a><a href="contact.html">Contact</a></nav></header>
+  <main id="main" class="content-wrap narrow">
+    <p class="eyebrow">Make it a Bliss moment</p><h1>Order request</h1><p class="lead">Complete the form to prepare an order request. Your order is not confirmed until Bliss Doughnuts contacts you.</p>
+    <form id="order-form" class="form-card" novalidate>
+      <label for="order-name">Recipient's full name *</label><input id="order-name" name="name" type="text" autocomplete="name" minlength="2" required>
+      <label for="order-email">Email address *</label><input id="order-email" name="email" type="email" autocomplete="email" required>
+      <label for="order-phone">Contact number *</label><input id="order-phone" name="phone" type="tel" autocomplete="tel" pattern="[0-9+() -]{7,20}" required title="Enter a valid phone number using 7 to 20 digits or common phone symbols.">
+      <label for="order-product">Product or design *</label><input id="order-product" name="product" type="text" required>
+      <label for="order-quantity">Quantity (number of boxes) *</label><input id="order-quantity" name="quantity" type="number" min="1" max="100" value="1" required>
+      <label for="order-address">Delivery address *</label><textarea id="order-address" name="address" rows="3" required minlength="5"></textarea>
+      <label for="order-area">Delivery area *</label><input id="order-area" name="area" type="text" required>
+      <label for="order-date">Preferred delivery date *</label><input id="order-date" name="date" type="date" required>
+      <label for="order-time">Preferred delivery time</label><input id="order-time" name="time" type="time">
+      <label for="order-message">Personal message or special instructions</label><textarea id="order-message" name="message" rows="3" placeholder="Optional"></textarea>
+      <label for="order-payment">Preferred payment method *</label><select id="order-payment" name="payment" required><option value="">Choose an option</option><option>Card payment (to be arranged)</option><option>Cash on delivery (subject to confirmation)</option><option>Other / discuss with the business</option></select>
+      <label class="check-row"><input type="checkbox" name="terms" required> I understand this is an order request and the business must confirm availability, final price, delivery and payment. *</label>
+      <button class="button" type="submit">Prepare order request</button><p id="order-status" class="form-message" role="status" aria-live="polite"></p>
+      <p class="small">This demonstration does not process payments or save orders to a database. It opens a pre-filled email for you to review and send.</p>
+    </form>
+  </main>
+  <footer class="site-footer"><p>Bliss Doughnuts · Springs, Johannesburg, South Africa</p><p><a href="enquiry.html">Ask a question before ordering</a></p></footer>
+</body>
+</html>
