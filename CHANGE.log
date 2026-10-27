@@ -1,0 +1,121 @@
+All notable changes to the Bliss doughnut website will be documented here.
+
+The format is based on Keep a Changelog. This project adheres to Semantic Versioning.
+
+[v1.0.0] - 2026-09-18
+Added
+Initial Bliss website structure - Home, About Us, Menu, Order, Contact pages
+Responsiveness Testing section in README.md with DevTools screenshots
+Device testing evidence: Mobile (iPhone SE - 375px), Tablet (iPad Pro 13 - 1024px), Desktop (Surface Pro 10 - 1920px)
+Responsive images implementation using srcset and sizes attributes
+Fixed
+Fixed navigation menu stacking vertically on desktop view
+Fixed duplicate body selectors in style.css causing style conflicts
+Fixed image responsiveness on small screens
+Changed
+Updated README.md to include requirement 3.4 - Responsiveness testing and iteration
+[v0.1.0] - 2026-09-10
+Added
+Project proposal and initial HTML files
+Basic CSS styling and brand colors
+GitHub repository setups
+# Changelog
+
+All notable changes to the Bliss Doughnuts website will be documented here.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/). This project adheres to Semantic Versioning.
+
+## [v1.0.0] - 2026-09-18
+
+### Added
+
+* Initial Bliss website structure: Home, About Us, Menu, Order, and Contact pages.
+* Responsiveness Testing section in README.md with DevTools screenshots.
+* Device testing evidence: Mobile (iPhone SE - 375px), Tablet (iPad Pro 13 - 1024px), and Desktop (Surface Pro 10 - 1920px).
+* Responsive images implementation using `srcset` and `sizes` attributes.
+
+### Fixed
+
+* Fixed navigation menu stacking vertically on desktop view.
+* Fixed duplicate body selectors in `style.css` causing style conflicts.
+* Fixed image responsiveness on small screens.
+
+### Changed
+
+* Updated README.md to include requirement 3.4 — Responsiveness testing and iteration.
+
+## [v0.1.0] - 2026-09-10
+
+### Added
+
+* Project proposal and initial HTML files.
+* Basic CSS styling and brand colours.
+* GitHub repository setup.
+
+ [v1.1.0] - 2026-10-11
+
+ Added
+
+- Added a separate JavaScript file, `script.js`, to organise website functionality separately from HTML.
+- Added SEO-related files, including `sitemap.xml` and `robots.txt`.
+* Added page-specific titles and meta descriptions to improve search engine optimisation.
+* Added and improved website documentation in `README.md`.
+
+changed
+- Improved the organisation of HTML, CSS, and JavaScript files.
+- Improved the structure and consistency of the website pages.
+- Updated the README to explain the website's purpose, features, file structure, and testing.
+- Improved the documentation of responsive design and website testing.
+
+[v1.1.0] - 2026-10-19
+
+  Added 
+
+- Added a changelog to document website development and improvements.
+- Added setup instructions and explanations of the main project files.
+- Added documentation for website screenshots, responsive testing, and image assets.
+- Added separate website pages for Home, About Us, Menu, Enquiry, Contact, and Order.
+- Added JavaScript functionality for menu searching and sorting, image enlargement, and mobile navigation.
+- Added client-side form validation for enquiry, contact, and order forms.
+
+ Changed
+
+* Prepared the website project for GitHub version control and online deployment.
+* Organised the website images into an images folder for use throughout the website.
+* Improved the consistency of the website's navigation and styling.
+
+
+[v1.1.0] - 2026-10-23
+
+## Fixed
+
+* Corrected HTML structure issues identified during website improvement.
+* Improved navigation links between the website pages.
+* Addressed styling consistency issues across the pages.
+* Reviewed the website's file organisation to make the project easier to maintain.
+* Identified placeholder URLs that need to be replaced with the final published website address.
+
+[v1.1.0] - 2026-10-26
+
+SEO
+
+* Created a sitemap listing the main website pages.
+* Added a `robots.txt` file for search engine crawling instructions.
+* Added page-specific metadata.
+* Prepared canonical URL placeholders for the published website.
+
+### Testing and Deployment
+
+* Continued preparing the project for GitHub and website deployment.
+* Identified the need to verify that CSS, JavaScript, images, navigation, and forms work correctly after deployment.
+* Identified the need to test the published website on different screen sizes.
+
+### Outstanding Improvements
+
+* Confirm that the original `mtstyle` stylesheet and its styling have been preserved in the final project.
+* Add and verify all required doughnut photographs.
+* Replace placeholder canonical URLs with the actual website address.
+* Verify that the sitemap URLs match the final website structure.
+* Complete deployment and test the live website.
+* Confirm that all forms and JavaScript functionality work correctly.
+
