@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://example.com/index.html</loc></url>
-  <url><loc>https://example.com/about.html</loc></url>
-  <url><loc>https://example.com/menu.html</loc></url>
-  <url><loc>https://example.com/order.html</loc></url>
-  <url><loc>https://example.com/enquiry.html</loc></url>
-  <url><loc>https://example.com/contact.html</loc></url>
+  <?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
+    <loc>https://otilemadonsela-prog.github.io/bliss-doughnuts/</loc>
+</url>
+
+<url>
+    <loc>https://otilemadonsela-prog.github.io/bliss-doughnuts/about.html</loc>
+</url>
+
+<url>
+    <loc>https://otilemadonsela-prog.github.io/bliss-doughnuts/menu.html</loc>
+</url>
+
+<url>
+    <loc>https://otilemadonsela-prog.github.io/bliss-doughnuts/enquiry.html</loc>
+</url>
+
+<url>
+    <loc>https://otilemadonsela-prog.github.io/bliss-doughnuts/contact.html</loc>
+</url>
+
+<url>
+    <loc>https://otilemadonsela-prog.github.io/bliss-doughnuts/order.html</loc>
+</url>
+
 </urlset>
