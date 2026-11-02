@@ -9,7 +9,7 @@ c:\Users\otile\Downloads\magnific_fun-wedding-doughnuts_UP92Gcewny.png
 c:\Users\otile\Downloads\magnific_formal-wedding-doughnuts_bxL7Jpx5Y2.png
 c:\Users\otile\Downloads\magnific_doughnuts-that-have-a-mes_yiRetnYPW9.png
 c:\Users\otile\Downloads\magnific_doughnuts_s77FYgTl8e.png
-c:\Users\otile\Downloads\magnific_doughnuts_rggCAjTxtc.jpg
+ <img class="hero-image" src="images/magnific_doughnuts_rggCAjTxtc.jpg" alt="Freshly decorated gourmet doughnuts from Bliss Doughnuts" width="700" height="500">
 c:\Users\otile\Downloads\magnific_doughnuts_rggCAjTxtc (1).jpg
 c:\Users\otile\Downloads\magnific_birthdays-and-parties-dou_vQH1W8Oa47.png
 c:\Users\otile\Downloads\magnific_baby-shower-and-gender-re_UP9TBHqwny.jpg
